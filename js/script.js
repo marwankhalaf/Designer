@@ -53,8 +53,8 @@ month.onclick = () =>{
 //     slides[index].classList.add('active');
 // }
 
-// document.querySelectorAll('.faq .accordion-container .accordion').forEach(accordion =>{
-//     accordion.onclick = () =>{
-//         accordion.classList.toggle('active');
-//     }
-// })
+document.querySelectorAll('.faq .accordion-container .accordion').forEach(accordion =>{
+    accordion.onclick = () =>{
+        accordion.classList.toggle('active');
+    }
+})
